@@ -1,0 +1,110 @@
+.room-type-overview {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start of the container */
+    flex-wrap: wrap;
+}
+
+.type-room {
+    display: flex;
+    flex-direction: column; /* stack elements vertically */
+    margin: 10px;
+    align-items: center; /* center elements horizontally */
+    max-width: 30%; /* Modify as needed */
+}
+
+.type-room img {
+    width: 60%; /* Set image width */
+    height: auto; /* Preserve aspect ratio */
+    margin-bottom: 15px; /*add some space after the picture */
+}
+
+.room-info {
+    display: flex;
+    flex-direction: column; /* stack elements vertically */
+    justify-content: space-between; /* distribute space evenly */
+    width: 100%; /* take full width */
+    text-align: center; /* align text to center */
+}
+
+.room-info button {
+    margin-top: 10px;
+    width: 130px; /* control button width */
+    max-width: 150px; /* Maximum button width */
+    text-align: center; /* Text centered within the button */
+    border: 1px solid black; /* add a border around the button */
+    background-color: white; /* button background*/
+    transition: background-color 0.25s; /* animate background-color */
+}
+
+.room-info button:hover {
+    background-color: #e7e7e7; /* change background color on hover */
+}
+
+.room-info .btn-container{
+    display: flex;
+    justify-content: center; /* align buttons to the center */
+    gap: 5px; /* control space between buttons */
+    width: 100%; /* take full width */
+}
+
+.room-info p {
+    margin: 0.25em 0;           /* adjust as necessary */
+    margin-bottom: 0.1em;       /* reduce space at the bottom of paragraphs */
+}
+
+.room-info p:last-child {
+    margin-bottom: 0.25em;      /* apply original space at the bottom of last paragraph */
+}
+
+.room-details {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.carousel-component {
+    width: 25%;
+}
+
+.room-text-details {
+    margin-left: 20px;
+    width: 50%;
+}
+
+.amenity img {
+    width: 50px;   /* adjust according to your preference */
+    height: auto;  /* maintain aspect ratio */
+}
+
+.amenities {
+    display: flex;  /* Makes it a flex-box container */
+    flex-direction: row;  /* Children are oriented in a row */
+    justify-content: space-between;  /* Even space between children */
+    align-items: center;  /* Vertically align items in case of differing heights */
+    flex-wrap: wrap;  /* Wrap to new line if needed */
+}
+
+.hotel-name {
+    text-align: center; /* Centers the text */
+    margin-bottom: 20px; /* Adds some vertical space */
+}
+
+.hotel-name p {
+    margin: 40px;
+
+}
+
+.hotel-description {
+    text-align: center; /* Centers the text */
+    margin: 0 auto; /* Aligns the block in the center */
+    width: 50%; /* Adjusts the width */
+    padding: 10px; /* Adds some padding around the text */
+}
+.hotel-description p {
+    margin-bottom: 1em; /* Adds bottom margin to paragraphs */
+}
+
+.hotel-description input[type='date'] {
+    margin: 0 1em; /* Adds horizontal margin around date inputs */
+}

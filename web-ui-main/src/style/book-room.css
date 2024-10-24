@@ -1,0 +1,45 @@
+/* book-room.css */
+.booking-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items. Adjust this value to your needs */
+}
+
+.box-left, .box-right{
+    display: flex;
+    flex-direction: row; /* stack elements vertically */
+    justify-content: center; /* center elements horizontally */
+    align-items: center; /* center elements vertically */
+    flex: 0 1 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 300px;
+    height: auto;
+}
+
+.box-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+.box-left-content{
+    margin-left: 10px;
+}
+
+
+.overview-image {
+    width: 50%; /* Adjust this to the desired size */
+    height: auto; /* Maintain aspect ratio of image */
+}
+.input-field{
+    margin-left: 5px;
+}
+
+#submit-booking{
+    margin: 10px;
+}

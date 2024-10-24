@@ -1,0 +1,19 @@
+.booking-confirmation-container{
+    display: flex;
+    position: fixed;  /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column; /* stack elements vertically */
+    justify-content: center; /* center elements horizontally */
+    align-items: center; /* center elements vertically */
+    flex: 0 1 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: auto;
+    min-width: 300px;
+    height: auto;
+
+}
